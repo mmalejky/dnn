@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+jupyter = "*"
+memory-profiler = "*"
+matplotlib = "*"
+ipympl = "*"
+ipykernel = "*"
+tensorflow = "*"
+scikit-image = "*"
+pydot = "*"
+pyvirtualdisplay = "*"
+box2d = "*"
+box2d-kengz = "*"
+box2d-py = "*"
+gym = {version = "==0.25.2", extras = ["box2d"]}
+seaborn = "*"
+
+[dev-packages]
+pandas = "*"
+
+[requires]
+python_version = "3.10"
